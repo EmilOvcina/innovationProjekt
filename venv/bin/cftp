@@ -1,4 +1,4 @@
-#!"/Users/emilovcina/Documents/SDU/5. Semester/Formelle Sprog/allergenApp/venv/bin/python"
+#!"/Users/emilovcina/Documents/SDU/5. Semester/Formelle Sprog/pythonProject/venv/bin/python"
 # EASY-INSTALL-ENTRY-SCRIPT: 'Twisted==20.3.0','console_scripts','cftp'
 import re
 import sys
