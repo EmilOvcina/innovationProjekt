@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/emilovcina/Documents/SDU/5. Semester/Formelle Sprog/pythonProject/venv/bin/python" "$0" "$@"
+'''exec' "/Users/emilovcina/Documents/SDU/5. Semester/Formelle Sprog/allergenApp/venv/bin/python" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

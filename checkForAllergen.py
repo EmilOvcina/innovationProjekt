@@ -73,7 +73,6 @@ def checkForAllergy(ingredients, allergens):
     tmp = ingredients.lower().split(",")
     tmp[0] = tmp[0].split('-')[1]
     out = []
-    print(allergens)
     for i in range(len(tmp)):
         for j in range(len(allergens)):
             if re.search(allergens[j], tmp[i]):

@@ -1,4 +1,4 @@
-
+# coding=utf-8
 from scrapy import signals
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings

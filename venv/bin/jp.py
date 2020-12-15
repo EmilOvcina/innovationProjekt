@@ -1,4 +1,4 @@
-#!/Users/emilovcina/Documents/SDU/5. Semester/Formelle Sprog/pythonProject/venv/bin/python
+#!/Users/emilovcina/Documents/SDU/5. Semester/Formelle Sprog/allergenApp/venv/bin/python
 
 import sys
 import json
