@@ -69,13 +69,12 @@
 <script>
     $("#mi-head").fadeOut(0)
     function display(output) {
-        var res = output.substr(2, 100);
+        var res = output.substr(2, output.length);
         res = res.replaceAll("\]","");
         res = res.replaceAll("\)","");
         res = res.replaceAll("\'","");
         res = res.replaceAll("\n","");
         res = res.split(',');
-        console.log(res);
         isAllergic = res[res.length-1];
         if(isAllergic == " True") {
             $("#mi-head").fadeIn(0)
