@@ -39,5 +39,12 @@ def checkForAllergy(ingredients, allergens):
     for i in range(len(tmp)):
         for j in range(len(allergens)):
             if re.search(allergens[j], tmp[i]):
-                out.append(tmp[i])
+                item = tmp[i]
+                item = re.sub("[0-9]*", "", item)
+                item = re.sub("%", "", item)
+                item = re.sub("\(.*", "", item)
+                item = re.sub(" ", "", item)
+                item = re.sub("\.", "", item)
+                item = item.capitalize()
+                out.append(item)
     return out, (len(out) > 0)
